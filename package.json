@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint src/index.js",
-    "build": "babel src/ --out-dir dist/"
+    "build": "babel src/ --out-dir dist/",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
