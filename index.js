@@ -31,7 +31,11 @@ const findTags = ob => Object.values(ob).reduce((a, e) => {
   return a;
 }, []);
 
-export default function parseAst({ fileName = 'translations.json', tagNames = ['t'] } = {}) {
+export default function parseAst({
+  fileName = 'translations.json',
+  tagNames = ['t'],
+  minify = false,
+} = {}) {
   let tags = [];
 
   return through.obj((file, encoding, cb) => {
@@ -62,7 +66,7 @@ export default function parseAst({ fileName = 'translations.json', tagNames = ['
       path: `/i18n/${fileName}`,
       // We'll be nice and pretty-print this JSON. Humans will read this, and the app should
       // never need the default translations
-      contents: Buffer.from(JSON.stringify(tagHash, undefined, '  ')),
+      contents: Buffer.from(JSON.stringify(tagHash, undefined, minify ? undefined : '  ')),
     });
 
     // Send back this newly built translations json to the pipe.
