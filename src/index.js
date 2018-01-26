@@ -31,7 +31,7 @@ const findTags = ob => Object.values(ob).reduce((a, e) => {
   return a;
 }, []);
 
-export default function parseAst({
+modules.export = function parseAst({
   fileName = 'translations.json',
   tagNames = ['t'],
   minify = false,
