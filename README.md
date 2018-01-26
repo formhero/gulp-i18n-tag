@@ -33,9 +33,14 @@ find other people to help translate.
 Originally built as part of the FormHero form authoring platform, we've extracted it into its
 own module so the public can use it too.
 
-## Examples
+## Usage
 
-gulp script config:
+Install via npm:
+```sh
+npm i -D gulp-i18n-tag
+```
+
+Configure your gulp tasks:
 
 ```javascript
 module.exports = function scriptsTasks(gulp, plugins) {
