@@ -1,8 +1,8 @@
 {
-  "name": "extract-tagify",
+  "name": "gulp-i18n-tag",
   "version": "1.0.0",
-  "description": "Browserify plugin to extract tagged template literals, for i18n and l10n. Build a translations.json! Edit",
-  "main": "index.js",
+  "description": "Gulp plugin to extract tagged template literals, for i18n and l10n. Build a translations.json! Edit",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint src/index.js",
