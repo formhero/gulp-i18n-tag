@@ -55,7 +55,7 @@ module.exports = function scriptsTasks(gulp, plugins) {
 };
 ```
 
-### Optional Parms:
+### Optional Params:
 * fileName <string> Newly built file object's name. default: translations.json
 * tagNames <Array> The tag names to parse out from your code. default: ['t']
 
