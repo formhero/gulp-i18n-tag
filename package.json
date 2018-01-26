@@ -1,0 +1,29 @@
+{
+  "name": "extract-tagify",
+  "version": "1.0.0",
+  "description": "Browserify plugin to extract tagged template literals, for i18n and l10n. Build a translations.json! Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/formhero/extract-tagify.git"
+  },
+  "keywords": [
+    "gulp",
+    "browserify",
+    "translations",
+    "i18n",
+    "l10n",
+    "translate",
+    "tagged",
+    "templates"
+  ],
+  "author": "Joshua Koudys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/formhero/extract-tagify/issues"
+  },
+  "homepage": "https://github.com/formhero/extract-tagify#readme"
+}
