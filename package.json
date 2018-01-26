@@ -25,5 +25,15 @@
   "bugs": {
     "url": "https://github.com/formhero/extract-tagify/issues"
   },
-  "homepage": "https://github.com/formhero/extract-tagify#readme"
+  "homepage": "https://github.com/formhero/extract-tagify#readme",
+  "dependencies": {
+    "babylon": "^6.18.0",
+    "through2": "^2.0.3",
+    "vinyl": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
 }
