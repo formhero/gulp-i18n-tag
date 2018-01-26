@@ -1,6 +1,6 @@
 {
   "name": "gulp-i18n-tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Gulp plugin to extract tagged template literals, for i18n and l10n. Build a translations.json! Edit",
   "main": "dist/index.js",
   "scripts": {
