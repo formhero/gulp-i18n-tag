@@ -31,7 +31,7 @@
   "homepage": "https://github.com/formhero/extract-tagify#readme",
   "dependencies": {
     "babylon": "^6.18.0",
-    "through2": "^2.0.3",
+    "through2": "^2.0.5",
     "vinyl": "^2.1.0"
   },
   "devDependencies": {
